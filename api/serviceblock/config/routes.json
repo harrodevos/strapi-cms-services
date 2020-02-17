@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/serviceblocks",
+      "handler": "Serviceblock.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/serviceblocks/count",
+      "handler": "Serviceblock.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/serviceblocks/:id",
+      "handler": "Serviceblock.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/serviceblocks",
+      "handler": "Serviceblock.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/serviceblocks/:id",
+      "handler": "Serviceblock.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/serviceblocks/:id",
+      "handler": "Serviceblock.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
