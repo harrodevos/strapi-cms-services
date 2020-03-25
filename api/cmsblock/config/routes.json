@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/sliders",
-      "handler": "Slider.find",
+      "path": "/cmsblocks",
+      "handler": "Cmsblock.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/sliders/count",
-      "handler": "Slider.count",
+      "path": "/cmsblocks/count",
+      "handler": "Cmsblock.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/sliders/:id",
-      "handler": "Slider.findOne",
+      "path": "/cmsblocks/:id",
+      "handler": "Cmsblock.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/sliders",
-      "handler": "Slider.create",
+      "path": "/cmsblocks",
+      "handler": "Cmsblock.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/sliders/:id",
-      "handler": "Slider.update",
+      "path": "/cmsblocks/:id",
+      "handler": "Cmsblock.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/sliders/:id",
-      "handler": "Slider.delete",
+      "path": "/cmsblocks/:id",
+      "handler": "Cmsblock.delete",
       "config": {
         "policies": []
       }

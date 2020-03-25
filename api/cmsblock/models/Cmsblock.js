@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `Serviceblock` model.
+ * Lifecycle callbacks for the `Cmsblock` model.
  */
 
 module.exports = {

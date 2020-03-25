@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "sliders",
+  "collectionName": "counters",
   "info": {
-    "name": "slider",
+    "name": "counter",
     "description": ""
   },
   "options": {
@@ -11,13 +11,13 @@
     "comment": ""
   },
   "attributes": {
-    "blockTitle": {
+    "title": {
       "type": "string"
     },
-    "blockText": {
-      "type": "string"
+    "count": {
+      "type": "integer"
     },
-    "backgroundImage": {
+    "icon": {
       "model": "file",
       "via": "related",
       "plugin": "upload"
